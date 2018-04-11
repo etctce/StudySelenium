@@ -8,6 +8,7 @@ public class MainClass {
            System.setProperty("webdriver.chrome.driver","D:\\Java\\StudySelenium\\drivers\\chromedriver.exe");
            WebDriver driver = new ChromeDriver();
            driver.get("https://www.google.ru/");
+
     }
 
 }
