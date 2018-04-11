@@ -20,4 +20,8 @@ public class Test_Google {
     public void FirstTest(){
         driver.get("https://www.google.ru/");
     }
+    //После теста
+    public void stop(){
+        driver.quit();
+    }
 }
